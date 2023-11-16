@@ -1,0 +1,11 @@
+{
+  "welcomeScreen": {
+    "countrySubTitle": "The choice of country affects the issuance of stocks and stores."
+  },
+  "login": {
+    "errorMessage": "Unable to login. Confirm that the email and password have been entered correctly."
+  },
+  "registration": {
+    "url": "https://letyshops.com/in/user?session=first"
+  }
+}
