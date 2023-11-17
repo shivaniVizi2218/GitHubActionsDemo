@@ -32,3 +32,11 @@ jobs:
       run: |
         npx playwright test
         
+    - name: Archive HTML Reports
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: playwright-reports
+        path: playwright-report
+    
+        
